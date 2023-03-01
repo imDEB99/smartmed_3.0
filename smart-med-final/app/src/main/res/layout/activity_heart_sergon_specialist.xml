@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeartSergonSpecialist"
+    android:orientation="vertical"
+    android:paddingTop="70dp"
+    android:paddingLeft="30dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/hs1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dr_ayesha" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:id="@+id/mediDoc1Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prof. Dr. Ayesha Rafiq Chowdhury"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS, MRCP (UK), FCPS (Medicine), MD (Cardiology), Fellow (Interventional Cardiology)"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiology and Medicine Specialist Jalalabad Ragib-Rabeya Medical College and Hospital"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/hs2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dr_bedi" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:id="@+id/mediDoc2Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Farzana Tazin"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS, FCPS (Cardiology)"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Popular Medical Center, Sylhet
+Address: New Medical Road, Kajolshah, Sylhet - 3100
+Visiting Hour: 5pm to 7pm (Closed: Friday)
+Appointment: +8801761582599"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/hs3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dr_mara" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Md. Nurul Afsar Badrul"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS, MS (Cardiology), D-CARD, FESC (UK), FACC (USA), PhD (Diabetes)"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiology, Medicine and Diabetes Specialist ,Sylhet MAG Osmani Medical College and Hospital"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+

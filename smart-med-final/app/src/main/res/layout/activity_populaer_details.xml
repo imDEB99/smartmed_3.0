@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abcd"
+    android:orientation="vertical"
+    tools:context=".PopulaerDetails">
+
+
+    <TextView
+        android:id="@+id/verifyEmailMsgId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="Popular Medical Center Ltd, Sylhet"
+        android:textColor="@color/black"
+        android:textSize="4mm"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Name:Popular Medical Center Ltd, Sylhet \n Location: New Medical Road, Kajalshah, Sylhet, 3100"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="normal"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=" Phone: +880821725227 \n Hotline: +8801715084078 \n Fax: +880821725227"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+
+        />
+
+
+</LinearLayout>

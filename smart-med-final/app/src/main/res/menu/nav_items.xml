@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_doctor"
+        android:title="Doctor"
+        android:icon="@drawable/ic_doctor"/>
+
+    <item android:id="@+id/nav_diagnostic"
+        android:title="Dianostic"
+        android:icon="@drawable/ic_medi"/>
+
+    <item android:id="@+id/nav_medicine"
+        android:title="Medicine"
+        android:icon="@drawable/ic_diagonstic"/>
+
+
+    <item android:id="@+id/nav_manu"
+        android:title="Ambulance"
+        android:icon="@drawable/ic_ambulance"/>
+
+</menu>

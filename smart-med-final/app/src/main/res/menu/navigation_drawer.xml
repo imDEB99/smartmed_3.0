@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/nav_share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        />
+
+    <item android:id="@+id/nav_termsandcondition"
+        android:title="Terms and Condition"
+        android:icon="@drawable/ic_terms"
+        />
+
+    <item android:id="@+id/nav_pricvacypolicy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/ic_privacy"
+        />
+    <item android:id="@+id/nav_aboutus"
+        android:title="About Us"
+        android:icon="@drawable/ic_aboutus"
+        />
+    <item android:id="@+id/nav_contactus"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_contactus"
+        />
+    <item android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        />
+
+
+</menu>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DOCTIME"
+        tools:targetApi="31" >
+        <activity
+            android:name=".QuantityAmbulance"
+            android:exported="false" />
+        <activity
+            android:name=".NoAcAmbulance"
+            android:exported="false" />
+        <activity
+            android:name=".AcAmbulance"
+            android:exported="false" />
+        <activity
+            android:name=".Quantity_E"
+            android:exported="false" />
+        <activity
+            android:name=".Quantity_D"
+            android:exported="false" />
+        <activity
+            android:name=".Quantity_C"
+            android:exported="false" />
+        <activity
+            android:name=".Quantiry_B"
+            android:exported="false" />
+        <activity
+            android:name=".Quantity"
+            android:exported="false" />
+        <activity
+            android:name=".CheakOut"
+            android:exported="false" />
+        <activity
+            android:name=".AmbulanceBooking"
+            android:exported="false" />
+        <activity
+            android:name=".KdS_D"
+            android:exported="false" />
+        <activity
+            android:name=".KdS_C"
+            android:exported="false" />
+        <activity
+            android:name=".KdS_B"
+            android:exported="false" />
+        <activity
+            android:name=".KdS_A"
+            android:exported="false" />
+        <activity
+            android:name=".KidneySpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".ChS_D"
+            android:exported="false" />
+        <activity
+            android:name=".ChS_C"
+            android:exported="false" />
+        <activity
+            android:name=".ChS_B"
+            android:exported="false" />
+        <activity
+            android:name=".ChS_A"
+            android:exported="false" />
+        <activity
+            android:name=".ChildSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".EyS_D"
+            android:exported="false" />
+        <activity
+            android:name=".EyS_C"
+            android:exported="false" />
+        <activity
+            android:name=".EyS_B"
+            android:exported="false" />
+        <activity
+            android:name=".EyS_A"
+            android:exported="false" />
+        <activity
+            android:name=".EyeSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".HtS_D"
+            android:exported="false" />
+        <activity
+            android:name=".HtS_C"
+            android:exported="false" />
+        <activity
+            android:name=".HtS_B"
+            android:exported="false" />
+        <activity
+            android:name=".HtS_A"
+            android:exported="false" />
+        <activity
+            android:name=".HeartSergonSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".MdS_D"
+            android:exported="false" />
+        <activity
+            android:name=".MdS_C"
+            android:exported="false" />
+        <activity
+            android:name=".MdS_B"
+            android:exported="false" />
+        <activity
+            android:name=".MdS_A"
+            android:exported="false" />
+        <activity
+            android:name=".GnPhyD"
+            android:exported="false" />
+        <activity
+            android:name=".GnPhyC"
+            android:exported="false" />
+        <activity
+            android:name=".GnPhyB"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessPayment"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".GnPhyA"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralPhysiciansList"
+            android:exported="false" />
+        <activity
+            android:name=".MedicineSpeclaist"
+            android:exported="false" />
+        <activity
+            android:name=".PopulaerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DigonosticCenterList"
+            android:exported="false" />
+        <activity
+            android:name=".VideoCall"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".ChatAppAuthentication"
+            android:exported="false" />
+        <activity
+            android:name=".ChatAppMain"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorListView"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoc"
+            android:exported="false" />
+        <activity
+            android:name=".nav_header_home"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".StoreMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UsersRe"
+            android:exported="false" />
+        <activity
+            android:name=".U"
+            android:exported="false" />
+        <activity
+            android:name=".AddUser"
+            android:exported="false" />
+        <activity
+            android:name=".RegiHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorRegister"
+            android:exported="false" />
+        <activity
+            android:name=".alert_dialog_add_new_user"
+            android:exported="false" />
+        <activity
+            android:name=".UsersRecyclerAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".userItem"
+            android:exported="false" />
+        <activity
+            android:name=".A"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyEmail"
+            android:exported="false" />
+        <activity
+            android:name=".Nevigation"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

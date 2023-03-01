@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"                       SMART-MED"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="already_have_an_account_login"> <i>Already have an account?</i> <b>Login</b></string>
+    <string name="no_account_signup"> <i>No Account?</i> <b>Register</b></string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+
+</resources>
